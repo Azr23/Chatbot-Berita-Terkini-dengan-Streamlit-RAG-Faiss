@@ -1,0 +1,14 @@
+streamlit>=1.28          # For building the app UI (tested with 1.48.1)
+python-dotenv            # For environment variable management
+google-genai             # Gemini API client (new package)
+
+# Document Processing Dependencies
+pypdf                    # PDF text extraction
+langchain-text-splitters # Intelligent text chunking
+requests                 # Web content fetching
+beautifulsoup4           # HTML parsing and cleaning
+
+# Vector Retrieval Dependencies
+faiss-cpu                # In-memory FAISS index
+sentence-transformers>=3.0.1  # Local embedding model (compatible with recent huggingface_hub)
+numpy                    # Vector operations
