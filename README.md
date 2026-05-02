@@ -50,19 +50,10 @@ GEMINI_API_KEY=your_key_here
 streamlit run app.py
 ```
 
-## Verification Checklist
-1. Startup aplikasi berhasil tanpa error import `faiss` atau `sentence-transformers`.
-2. Quick-load tiap media menghasilkan chunk yang masuk index.
-3. URL custom whitelist diterima; non-whitelist ditolak dengan pesan jelas.
-4. Ajukan 3-5 pertanyaan berita; jawaban tetap Bahasa Indonesia dan menyebut sumber.
-5. Saat index kosong, chatbot tetap merespons tanpa crash.
-6. Pastikan konteks ke LLM lebih ringkas (chunk terbatas dan excerpt dipotong).
+atau
 
-## Scope Saat Ini
-- Include: news update chatbot dengan RAG FAISS in-memory
-- Include: hanya 7 domain media pada whitelist
-- Include: refresh manual dari sidebar
-- Include: default respons Bahasa Indonesia
-- Include: upload PDF disembunyikan sementara (tidak dihapus permanen)
-- Exclude: persistence index ke disk
-- Exclude: scheduler auto-refresh
+```bash
+python -m streamlit run app.py
+```
+
+
