@@ -1,6 +1,6 @@
 # News Update Chatbot - RAG FAISS In-Memory
 
-Aplikasi Streamlit ini adalah migrasi dari climate chatbot menjadi **chatbot news update** dengan arsitektur **RAG berbasis FAISS in-memory**. Tujuannya adalah membuat konteks yang dikirim ke LLM lebih kecil, lebih relevan, dan tetap punya sitasi sumber.
+Aplikasi Streamlit chatbot ini membantu pengguna dengan mencari dan merangkum berita terkini dari sumber yang tepercaya, lalu menjawab pertanyaan dalam Bahasa Indonesia dengan sitasi sumber. Pengguna juga bisa meminta ringkasan lintas media, membandingkan informasi antar sumber, atau fokus ke satu media tertentu.
 
 ## Fitur Utama
 - **RAG semantic retrieval** dengan FAISS in-memory (tanpa penyimpanan index ke disk)
